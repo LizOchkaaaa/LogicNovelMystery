@@ -15,6 +15,17 @@ services:
       timeout: 10s
       retries: 5
 
+  postgres_test:
+    image: 'postgres:15'
+    container_name: test_db
+    environment:
+      - 'POSTGRES_DB=test_db'
+      - 'POSTGRES_USER=user'
+      - 'POSTGRES_PASSWORD=password'
+    ports:
+      - "5433:5432"  # Порт для тестовой базы данных (отличается от основной)
+
+
   backend:
     build:
       context: .
@@ -24,6 +35,9 @@ services:
         condition: service_healthy
     ports:
       - "8080:8080"
+
+    volumes:
+      - ./build/libs/lnm-backend-0.0.1-SNAPSHOT.war:/app/lnm-backend.war
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/mydatabase
       DATABASE_USERNAME: myuser
