@@ -125,6 +125,18 @@
     },
     "task_choose_weapon4": {
       "id": "task_choose_weapon4",
+      "type": "COMPLETE_QUERY",
+      "questionText": "Напиши запрос, чтобы одним запросом вернуть всех персонажей 'character(professor).' \n 'character(steve).' \n 'character(vicky).'",
+      "expectedResult": [
+        "character(X)."
+      ],
+      "hint": "Вспомни, как использовать переменные в Prolog",
+      "nextFrameOnSuccess": "inception4_12",
+      "nextFrameOnFailure": "frame_weapon_failure4",
+      "failureScorePenalty": 2
+    },
+    "task_choose_weapon5": {
+      "id": "task_choose_weapon5",
       "type": "SELECT_ONE",
       "questionText": "Как можно найти длину списка `[a, b, c, d]` в Прологе?",
       "options": [
@@ -135,21 +147,9 @@
       ],
       "correctAnswerIndices": 2,
       "hint": "Вспомни про встроенные конструкции",
-      "nextFrameOnSuccess": "inception4_12",
-      "nextFrameOnFailure": "frame_weapon_failure4",
-      "failureScorePenalty": 1
-    },
-    "task_choose_weapon5": {
-      "id": "task_choose_weapon5",
-      "type": "COMPLETE_QUERY",
-      "questionText": "Напиши запрос, который объединяет два списка в третий `Result = [1, 2, 3, 4]`.",
-      "expectedResult": [
-        "Result = [1, 2, 3, 4]"
-      ],
-      "hint": "Вспомни про встроенные конструкции. Воспользуйся стандартным предикатом append/3.",
       "nextFrameOnSuccess": "inception5_11",
       "nextFrameOnFailure": "frame_weapon_failure5",
-      "failureScorePenalty": 2
+      "failureScorePenalty": 1
     }
   },
   "knowledge": {},
