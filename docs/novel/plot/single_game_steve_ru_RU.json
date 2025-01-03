@@ -103,7 +103,7 @@
       ],
       "correctAnswerIndices": 0,
       "hint": "Вспомни, что означает переменная Х",
-      "nextFrameOnSuccess": "inception2_07",
+      "nextFrameOnSuccess": "inception2_15",
       "nextFrameOnFailure": "frame_weapon_failure2",
       "failureScorePenalty": 1
     },
@@ -119,7 +119,7 @@
       ],
       "correctAnswerIndices": 0,
       "hint": "Подумай, что такое факт.",
-      "nextFrameOnSuccess": "inception3_15",
+      "nextFrameOnSuccess": "inception3_20",
       "nextFrameOnFailure": "frame_weapon_failure3",
       "failureScorePenalty": 1
     },
@@ -131,7 +131,7 @@
         "character(X)."
       ],
       "hint": "Вспомни, как использовать переменные в Prolog",
-      "nextFrameOnSuccess": "inception4_12",
+      "nextFrameOnSuccess": "inception4_13",
       "nextFrameOnFailure": "frame_weapon_failure4",
       "failureScorePenalty": 2
     },
@@ -147,7 +147,7 @@
       ],
       "correctAnswerIndices": 2,
       "hint": "Вспомни про встроенные конструкции",
-      "nextFrameOnSuccess": "inception5_11",
+      "nextFrameOnSuccess": "inception5_18",
       "nextFrameOnFailure": "frame_weapon_failure5",
       "failureScorePenalty": 1
     }
@@ -352,8 +352,56 @@
         },
         "inception2_06": {
           "id": "inception2_06",
+          "dialogue": "Аргументы предложений Prolog-программы называются термами, а саму Prolog-программу можно рассматривать как сеть отношений, существующих между термами.",
+          "speaker": "steve",
+          "nextFrame": "inception2_07"
+        },
+        "inception2_07": {
+          "id": "inception2_07",
+          "dialogue": "Каждый терм обозначает некоторый объект предметной области и записывается как последовательность литер, которые делятся на четыре категории: прописные буквы, строчные буквы, цифры и спецзнаки.",
+          "speaker": "steve",
+          "nextFrame": "inception2_08"
+        },
+        "inception2_08": {
+          "id": "inception2_08",
+          "dialogue": "В качестве основных объектов данных обычно выделяет три типа термов: константы, переменные (простые термы) и структуры (составные термы).",
+          "speaker": "steve",
+          "nextFrame": "inception2_09"
+        },
+        "inception2_09": {
+          "id": "inception2_09",
+          "dialogue": "Константа — поименованный конкретный объект или конкретное отношение. Например: Steve.",
+          "speaker": "steve",
+          "nextFrame": "inception2_10"
+        },
+        "inception2_10": {
+          "id": "inception2_10",
+          "dialogue": "Переменная — обозначение объекта, значения которого меняется в ходе выполнения программы. В Prolog она имеет имя, начинающееся с прописной буквы или знака подчеркивания. Например: X.",
+          "speaker": "steve",
+          "nextFrame": "inception2_11"
+        },
+        "inception2_11": {
+          "id": "inception2_11",
+          "dialogue": "Переменная называется связанной, если имеется объект, который она обозначает. При отсутствии такого объекта переменная называется свободной. ",
+          "speaker": "steve",
+          "nextFrame": "inception2_12"
+        },
+         "inception2_12": {
+          "id": "inception2_12",
+          "dialogue": "Структура (составной терм) — объект, состоящий из совокупности других объектов, которые называются компонентами. Например: likes (\"Steve\" , book ( “name”, “author” )).",
+          "speaker": "steve",
+          "nextFrame": "inception2_13"
+        },
+         "inception2_13": {
+          "id": "inception2_13",
+          "dialogue": "Много нового для себя узнал…теперь перейдем к заданию, а то времени мало…",
+          "speaker": "steve",
+          "nextFrame": "inception2_14"
+        },
+        "inception2_14": {
+          "id": "inception2_14",
           "dialogue": "",
-          "nextFrame": "inception2_07",
+          "nextFrame": "inception2_15",
           "effects": [
             {
               "type": "START_TASK",
@@ -364,10 +412,10 @@
           ]
         }
       },
-      "inception2_07": {
-        "id": "inception2_07",
+      "inception2_15": {
+        "id": "inception2_15",
         "dialogue": "",
-        "nextFrame": "inception2_08",
+        "nextFrame": "inception3",
         "effects": [
           {
             "type": "JUMP_CHAPTER",
@@ -477,8 +525,38 @@
         },
         "inception3_14": {
           "id": "inception3_14",
+          "dialogue": "Так, что у нас тут сказано…",
+          "speaker": "steve",
+          "nextFrame": "inception3_15"
+        },
+        "inception3_15": {
+          "id": "inception3_15",
+          "dialogue": "Prolog — это язык программирования, основанный на логике. Основные строительные блоки - это факты, правила и запросы. Они позволяют описывать знания и выполнять логический вывод. ",
+          "speaker": "steve",
+          "nextFrame": "inception3_16"
+        },
+        "inception3_16": {
+          "id": "inception3_16",
+          "dialogue": "Простые запросы, не содержащие никаких переменных, допускают лишь два возможных ответа: \"true\" или \"false\". В случае ответа \"true\" говорят, что запрос завершился успехом, цель достигнута.  ",
+          "speaker": "steve",
+          "nextFrame": "inception3_17"
+        },
+        "inception3_17": {
+          "id": "inception3_17",
+          "dialogue": "Использование переменных в запросах позволяет задавать более сложные вопросы. Например: ?- likes('Steve','book'). результат: true.",
+          "speaker": "steve",
+          "nextFrame": "inception3_18"
+        },
+        "inception3_18": {
+          "id": "inception3_18",
+          "dialogue": "Так попробуем применить теорию к практике.",
+          "speaker": "steve",
+          "nextFrame": "inception3_19"
+        },
+        "inception3_19": {
+          "id": "inception3_19",
           "dialogue": "",
-          "nextFrame": "inception3_15",
+          "nextFrame": "inception3_20",
           "effects": [
             {
               "type": "START_TASK",
@@ -488,8 +566,8 @@
             }
           ]
         },
-        "inception3_15": {
-          "id": "inception3_15",
+        "inception3_20": {
+          "id": "inception3_20",
           "dialogue": "",
           "nextFrame": "inception4",
           "effects": [
@@ -609,8 +687,14 @@
           },
           "inception4_11": {
             "id": "inception4_11",
+            "dialogue": "Так, посмотрим теорию… О, нет! Здесь ничего не сказано, значит Митник хочет проверить нас. Хах, а он хитер, но печалиться не будем, попробуем свои силы.",
+            "speaker": "robot",
+            "nextFrame": "inception4_12"
+          },
+          "inception4_12": {
+            "id": "inception4_12",
             "dialogue": "",
-            "nextFrame": "inception4_12",
+            "nextFrame": "inception4_13",
             "effects": [
               {
                 "type": "START_TASK",
@@ -620,8 +704,8 @@
               }
             ]
           },
-          "inception4_12": {
-            "id": "inception4_12",
+          "inception4_13": {
+            "id": "inception4_13",
             "dialogue": "",
             "nextFrame": "inception5",
             "effects": [
@@ -731,8 +815,50 @@
             },
             "inception5_10": {
               "id": "inception5_10",
+              "dialogue": "Сейчас загляну в планшет, ознакомлюсь с теорией…",
+              "speaker": "steve",
+              "nextFrame": "inception5_11"
+            },
+             "inception5_11": {
+              "id": "inception5_11",
+              "dialogue": "Списки — важная структура в Прологе. Списки позволяют хранить произвольное количество данных. Связный список — структура данных, состоящая из узлов. ",
+              "speaker": "steve",
+              "nextFrame": "inception5_12"
+            },
+             "inception5_12": {
+              "id": "inception5_12",
+              "dialogue": "Узел содержит данные и ссылку (указатель, связку) на один или два соседних узла.",
+              "speaker": "steve",
+              "nextFrame": "inception5_13"
+            },
+             "inception5_13": {
+              "id": "inception5_13",
+              "dialogue": "Списки языка Prolog являются односвязными, т.е. каждый узел содержит лишь одну ссылку. Для работы со списками существуют встроенные функции, рассмотрим некоторые из них.",
+              "speaker": "steve",
+              "nextFrame": "inception5_14"
+            },
+             "inception5_14": {
+              "id": "inception5_14",
+              "dialogue": "sum_list(List, Sum) — вычисление суммы элементов списка , member(Elem, List) — выполняет поиск значения в списке. Завершается удачей если элемент найден. , reverse(List, ReverseList) — функция переворота списка",
+              "speaker": "steve",
+              "nextFrame": "inception5_15"
+            },
+             "inception5_15": {
+              "id": "inception5_15",
+              "dialogue": "length(List, Length) — вычисляет длину списка, append(List1, List2, List1AndList2)— функция объединения двух списков и delete(InputList, Elem, ResultList) — функция удаления всех элементов с заданным значением из списка.",
+              "speaker": "steve",
+              "nextFrame": "inception5_16"
+            },
+             "inception5_16": {
+              "id": "inception5_16",
+              "dialogue": "Да, тут посложнее будет, но мы у цели. Мы справимся!",
+              "speaker": "steve",
+              "nextFrame": "inception5_17"
+            },
+            "inception5_17": {
+              "id": "inception5_17",
               "dialogue": "",
-              "nextFrame": "inception5_11",
+              "nextFrame": "inception5_18",
               "effects": [
                 {
                   "type": "START_TASK",
@@ -742,8 +868,8 @@
                 }
               ]
             },
-            "inception5_11": {
-              "id": "inception5_11",
+            "inception5_18": {
+              "id": "inception5_18",
               "dialogue": "",
               "nextFrame": null
             },
