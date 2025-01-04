@@ -782,24 +782,25 @@
             }
           ],
           "speaker": "robot",
-          "dialogue": "Итак, Prolog -- это язык логического программирования.",
+          "dialogue": "У меня есть планшет, с помощью него вы можете узнать подробнее о языке Prolog. Он может помочь проходить вам задания.",
           "nextFrame": "inception4_01"
         },
         "inception4_01": {
           "id": "inception4_01",
-          "dialogue": "Он основан на логике дизъюнктов Хорна. Она -- подмножество логики первого порядка... ",
+          "speaker": "steve",
+          "dialogue": "Можно ознакомлюсь?",
           "nextFrame": "inception4_02"
         },
         "inception4_02": {
           "id": "inception4_02",
-          "speaker": "steve",
-          "dialogue": "Прости, но у меня не весь день... Лучше скажи: где он обычно применяется?",
+          "speaker": "robot",
+          "dialogue": "Конечно!",
           "nextFrame": "inception4_03"
         },
         "inception4_03": {
           "id": "inception4_03",
-          "speaker": "robot",
-          "dialogue": "Где применяется? Хорошо... Его часто используют для составления баз знаний.",
+          "speaker": "steve",
+          "dialogue": "Программа на языке Prolog состоит из множества предложений (фраз). Каждое предложение может быть одного из трех типов: это либо факт, либо правило, либо запрос.",
           "nextFrame": "inception4_04",
           "effects": [
             {
@@ -814,52 +815,43 @@
         "inception4_04": {
           "id": "inception4_04",
           "speaker": "steve",
-          "dialogue": "Базы знаний? Доводилось работать с базами данных, это же что-то похожее?",
+          "dialogue": "Факт — это фраза без условий, утверждение о том, что соблюдается некоторое отношение. Он записывается как имя предиката, за которым следует заключенный в скобки список аргументов.Например: likes('Steve’,’work’).",
           "nextFrame": "inception4_05"
         },
         "inception4_05": {
           "id": "inception4_05",
-          "speaker": "robot",
-          "dialogue": "Да. Но записи в базах данных позволяют задать лишь существующие знания -- мы называем их фактами.",
+          "speaker": "steve",
+          "dialogue": "Правило — это факт, истинность которого зависит от истинности других фактов. Состоит из головы и тела, разделенных знаком :- , который читается как «если» и соответствует импликации. ",
           "nextFrame": "inception4_06"
         },
         "inception4_06": {
           "id": "inception4_06",
-          "dialogue": "Но есть ещё и правила. Это конструкции, позволяющие выводить новые знания.",
+          "dialogue": "Голова правила — это предикат, а тело правила — последовательность предикатов, разделенных запятыми.",
           "nextFrame": "inception4_07"
         },
         "inception4_07": {
           "id": "inception4_07",
-          "dialogue": "Чтобы получать знания из базы, мы используем запросы. Как и в базах данных.",
+          "dialogue": "Правило должно заканчиваться точкой, а запятая в теле правила означает конъюнкцию (логическое И). Например: likes(‘Steve’,X) :- likes(‘Robot’,X).",
           "nextFrame": "inception4_08"
         },
         "inception4_08": {
           "id": "inception4_08",
-          "dialogue": "Для работы с базами знаний достаточно знать 3 ключевых понятия Prolog: факты, правила, запросы.",
+          "dialogue": "Запрос — это последовательность предикатов, разделенных запятыми или точкой с запятой и завершающаяся точкой. ",
           "nextFrame": "inception4_09"
         },
         "inception4_09": {
           "id": "inception4_09",
-          "dialogue": "Но прежде чем мы продолжим...",
+          "dialogue": "На естественном языке запятая соответствует союзу «и», а на языке математической логики обозначает конъюнкцию. ",
           "nextFrame": "inception4_10",
-          "effects": [
-            {
-              "type": "CHANGE_POSE",
-              "args": {
-                "characterId": "robot",
-                "newPose": "think"
-              }
-            }
-          ]
         },
         "inception4_10": {
           "id": "inception4_10",
-          "dialogue": "Я проверю, насколько внимательно вы слушали. Пожалуйста, ответьте на простой вопрос.",
+          "dialogue": "Точка с запятой соответствует союзу «или» и обозначает дизъюнкцию. Предикат запроса называется целью.",
           "nextFrame": "inception4_11"
         },
         "inception4_11": {
           "id": "inception4_11",
-          "dialogue": "Будьте внимательны. Совершите слишком много ошибок -- не сможете продолжить.",
+          "dialogue": "Понял, понял, сейчас все решу!",
           "nextFrame": "inception4_12"
         },
         "inception4_12": {
@@ -1021,12 +1013,60 @@
         },
         "elaboration1_11": {
           "id": "elaboration1_11",
-          "dialogue": "Осторожнее поднимайтесь, сэр! В некоторых ступенях лестницы скрыты ловушки. Это и есть следующие задания...",
+          "dialogue": "Осторожнее поднимайтесь, сэр! В некоторых ступенях лестницы скрыты ловушки. Это и есть следующие задания.Не забудьте, у вас есть планшет.",
           "speaker": "robot",
           "nextFrame": "elaboration1_12"
         },
         "elaboration1_12": {
           "id": "elaboration1_12",
+          "dialogue": "Аргументы предложений Prolog-программы называются термами, а саму Prolog-программу можно рассматривать как сеть отношений, существующих между термами. ",
+          "speaker": "steve",
+          "nextFrame": "elaboration1_13"
+        },
+        "elaboration1_13": {
+          "id": "elaboration1_13",
+          "dialogue": "Каждый терм обозначает некоторый объект предметной области и записывается как последовательность литер, которые делятся на четыре категории: прописные буквы, строчные буквы, цифры и спецзнаки.",
+          "speaker": "steve",
+          "nextFrame": "elaboration1_14"
+        },
+        "elaboration1_14": {
+          "id": "elaboration1_14",
+          "dialogue": "В качестве основных объектов данных обычно выделяет три типа термов: константы, переменные (простые термы) и структуры (составные термы).",
+          "speaker": "steve",
+          "nextFrame": "elaboration1_15"
+        },
+        "elaboration1_15": {
+          "id": "elaboration1_15",
+          "dialogue": "Константа — поименованный конкретный объект или конкретное отношение. Например: Steve.",
+          "speaker": "steve",
+          "nextFrame": "elaboration1_16"
+        },
+        "elaboration1_16": {
+          "id": "elaboration1_16",
+          "dialogue": "Переменная — обозначение объекта, значения которого меняется в ходе выполнения программы. В Prolog она имеет имя, начинающееся с прописной буквы или знака подчеркивания. Например: X.",
+          "speaker": "steve",
+          "nextFrame": "elaboration1_17"
+        },
+        "elaboration1_17": {
+          "id": "elaboration1_17",
+          "dialogue": "Переменная называется связанной, если имеется объект, который она обозначает. При отсутствии такого объекта переменная называется свободной. ",
+          "speaker": "steve",
+          "nextFrame": "elaboration1_18"
+        },
+        "elaboration1_18": {
+          "id": "elaboration1_18",
+          "dialogue": "Структура (составной терм) — объект, состоящий из совокупности других объектов, которые называются компонентами. Например: likes ( \"Steve\" , book ( “name”, “author” )).",
+          "speaker": "steve",
+          "nextFrame": "elaboration1_19"
+        },
+        "elaboration1_19": {
+          "id": "elaboration1_19",
+          "dialogue": "Много нового для себя узнал…теперь перейдем к заданию, а то времени мало…",
+          "speaker": "steve",
+          "nextFrame": "elaboration1_20"
+        },
+        "elaboration1_20": {
+          "id": "elaboration1_20",
           "dialogue": "",
           "nextFrame": null,
           "effects": [
@@ -1043,10 +1083,10 @@
           "dialogue": "Будьте внимательнее, агент! Я же говорил, задания -- это и есть ловушки.",
           "nextFrame": "elaboration1_12"
         },
-        "elaboration1_13": {
-          "id": "elaboration1_13",
+        "elaboration1_21": {
+          "id": "elaboration1_21",
           "dialogue": "Хорошо, агент. Давайте пройдём дальше.",
-          "nextFrame": "elaboration1_13",
+          "nextFrame": "elaboration1_21",
           "effects": [
             {
               "type": "JUMP_CHAPTER",
@@ -1107,8 +1147,38 @@
         },
         "elaboration2_06": {
           "id": "elaboration2_06",
+          "dialogue": "Так, что у нас тут сказано…",
+          "speaker": "steve",
+          "nextFrame": "elaboration2_07"
+        },
+        "elaboration2_07": {
+          "id": "elaboration2_07",
+          "dialogue": "Prolog — это язык программирования, основанный на логике. Основные строительные блоки - это факты, правила и запросы. ",
+          "speaker": "steve",
+          "nextFrame": "elaboration2_08"
+        },
+        "elaboration2_08": {
+          "id": "elaboration2_08",
+          "dialogue": "Они позволяют описывать знания и выполнять логический вывод. Простые запросы, не содержащие никаких переменных, допускают лишь два возможных ответа: \"true\" или \"false\". ",
+          "speaker": "steve",
+          "nextFrame": "elaboration2_09"
+        },
+        "elaboration2_09": {
+          "id": "elaboration2_09",
+          "dialogue": "В случае ответа \"true\" говорят, что запрос завершился успехом, цель достигнута. Использование переменных в запросах позволяет задавать более сложные вопросы. Например: ?- likes('Steve','book'). true.",
+          "speaker": "steve",
+          "nextFrame": "elaboration2_10"
+        },
+        "elaboration2_10": {
+          "id": "elaboration2_10",
+          "dialogue": "Так попробуем применить теорию к практике.",
+          "speaker": "steve",
+          "nextFrame": "elaboration2_11"
+        },
+        "elaboration2_11": {
+          "id": "elaboration2_11",
           "dialogue": "",
-          "nextFrame": "elaboration2_06",
+          "nextFrame": "elaboration2_12",
           "effects": [
             {
               "type": "START_TASK",
@@ -1123,13 +1193,13 @@
           "dialogue": "Попробуйте еще раз!",
           "nextFrame": "elaboration2_06"
         },
-        "elaboration2_07": {
-          "id": "elaboration2_07",
+        "elaboration2_12": {
+          "id": "elaboration2_12",
           "dialogue": "Вы делаете успехи, агент. Самое время открыть комнату...",
           "nextFrame": "elaboration2_08"
         },
-        "elaboration2_08": {
-          "id": "elaboration2_08",
+        "elaboration2_13": {
+          "id": "elaboration2_13",
           "dialogue": "",
           "nextFrame": null,
           "effects": [
@@ -1243,8 +1313,14 @@
         },
         "elaboration3_14": {
           "id": "elaboration3_14",
+          "dialogue": "Так, посмотрим теорию… О, нет! Здесь ничего не сказано для следующего задания, значит Митник хочет проверить нас. Хах, а он хитер, но печалиться не будем, попробуем свои силы.",
+          "speaker": "steve",
+          "nextFrame": "elaboration3_15"
+        },
+        "elaboration3_15": {
+          "id": "elaboration3_15",
           "dialogue": "",
-          "nextFrame": "elaboration3_14",
+          "nextFrame": "elaboration3_16",
           "effects": [
             {
               "type": "START_TASK",
@@ -1259,13 +1335,13 @@
           "dialogue": "Чёрт... Попробую-ка ещё раз.",
           "nextFrame": "elaboration3_14"
         },
-        "elaboration3_15": {
-          "id": "elaboration3_15",
+        "elaboration3_17": {
+          "id": "elaboration3_17",
           "dialogue": "Хорошо... Похоже, ловушка деактивирована.",
           "nextFrame": "elaboration3_16"
         },
-        "elaboration3_16": {
-          "id": "elaboration3_16",
+        "elaboration3_18": {
+          "id": "elaboration3_18",
           "dialogue": "",
           "nextFrame": null,
           "effects": [
@@ -1372,13 +1448,43 @@
         },
         "elaboration4_10": {
           "id": "elaboration4_10",
-          "dialogue": "Робот, какое задание следующее?",
+          "dialogue": "Робот, какое задание следующее? Сейчас загляну в планшет, ознакомлюсь с теорией…",
           "nextFrame": "elaboration4_11"
         },
-        "elaboration4_11": {
+         "elaboration4_11": {
           "id": "elaboration4_11",
+          "dialogue": "Списки — важная структура в Прологе. Списки позволяют хранить произвольное количество данных. Связный список — структура данных, состоящая из узлов.",
+          "nextFrame": "elaboration4_12"
+        },
+         "elaboration4_12": {
+          "id": "elaboration4_12",
+          "dialogue": "Узел содержит данные и ссылку (указатель, связку) на один или два соседних узла.",
+          "nextFrame": "elaboration4_13"
+        },
+        "elaboration4_13": {
+          "id": "elaboration4_13",
+          "dialogue": "Списки языка Prolog являются односвязными, т.е. каждый узел содержит лишь одну ссылку. Для работы со списками существуют встроенные функции, рассмотрим некоторые из них.",
+          "nextFrame": "elaboration4_14"
+        },
+         "elaboration4_14": {
+          "id": "elaboration4_14",
+          "dialogue": "sum_list(List, Sum) — вычисление суммы элементов списка , member(Elem, List) — выполняет поиск значения в списке. Завершается удачей если элемент найден. , reverse(List, ReverseList) — функция переворота списка",
+          "nextFrame": "elaboration4_15"
+        },
+         "elaboration4_15": {
+          "id": "elaboration4_15",
+          "dialogue": "length(List, Length) — вычисляет длину списка, append(List1, List2, List1AndList2)— функция объединения двух списков и delete(InputList, Elem, ResultList) — функция удаления всех элементов с заданным значением из списка.",
+          "nextFrame": "elaboration4_16"
+        },
+         "elaboration4_16": {
+          "id": "elaboration4_16",
+          "dialogue": "Да, тут посложнее будет, но мы у цели. Мы справимся!",
+          "nextFrame": "elaboration4_17"
+        },
+        "elaboration4_17": {
+          "id": "elaboration4_17",
           "dialogue": "",
-          "nextFrame": "elaboration4_11",
+          "nextFrame": "elaboration4_17",
           "effects": [
             {
               "type": "START_TASK",
@@ -1391,18 +1497,18 @@
         "elaboration4_failTask4_01": {
           "id": "elaboration4_failTask4_01",
           "dialogue": "Попробуйте еще раз!",
-          "nextFrame": "elaboration4_11"
+          "nextFrame": "elaboration4_17"
         },
-        "elaboration4_12": {
-          "id": "elaboration4_12",
+        "elaboration4_18": {
+          "id": "elaboration4_18",
           "speaker": "steve",
           "dialogue": "Ещё немного и...",
-          "nextFrame": "elaboration4_13"
+          "nextFrame": "elaboration4_19"
         },
-        "elaboration4_13": {
-          "id": "elaboration4_13",
+        "elaboration4_19": {
+          "id": "elaboration4_19",
           "dialogue": "Есть, я освободил вас!",
-          "nextFrame": "elaboration4_14",
+          "nextFrame": "elaboration4_20",
           "effects": [
             {
               "type": "CHANGE_POSE",
@@ -1413,8 +1519,8 @@
             }
           ]
         },
-        "elaboration4_14": {
-          "id": "elaboration4_14",
+        "elaboration4_20": {
+          "id": "elaboration4_20",
           "dialogue": "",
           "nextFrame": null,
           "effects": [
@@ -1536,7 +1642,8 @@
         },
         "elaboration5_12": {
           "id": "elaboration5_12",
-          "dialogue": "Сейчас открою терминал... нет, лучше редактор кода.",
+          "speaker": "steve",
+          "dialogue": "Сейчас открою терминал... нет, лучше редактор кода и теорию. Так так, теории опять нет,но и ладно с прошлым заданием мы справились и сейчас справимся!",
           "nextFrame": "elaboration5_13"
         },
         "elaboration5_13": {
@@ -1665,21 +1772,6 @@
     "task1": {
       "id": "task1",
       "type": "SELECT_ONE",
-      "questionText": "Какую парадигму программирования реализовывает Prolog?",
-      "options": [
-        "Объектно-ориентированное",
-        "Реактивное",
-        "Императивное",
-        "Логическое"
-      ],
-      "correctAnswerIndex": 3,
-      "nextFrameOnSuccess": "elaboration1_13",
-      "nextFrameOnFailure": "elaboration1_failTask1_01",
-      "failureScorePenalty": 2
-    },
-    "task2": {
-      "id": "task2",
-      "type": "SELECT_ONE",
       "questionText": "Можно ли использовать переменные (например, `X`) в правилах (см. ниже)? ```develop(X) :- work(X, virus).```",
       "options": [
         "Да",
@@ -1687,15 +1779,15 @@
       ],
       "correctAnswerIndex": 0,
       "hint": "Вспомни, что означает переменная `Х`",
-      "nextFrameOnSuccess": "elaboration2_07",
-      "nextFrameOnFailure": "elaboration2_failTask2_01",
-      "failureScorePenalty": 1
+      "nextFrameOnSuccess": "inception4_13",
+      "nextFrameOnFailure": "elaboration1_failTask1_01",
+      "failureScorePenalty": 2
     },
-    "task3": {
-      "id": "task3",
+    "task2": {
+      "id": "task2",
       "type": "SELECT_ONE",
       "questionText": "Даны следующие факты:```character(professor).\ncharacter(steve).\ncharacter(mitnik).```Какой результат даст запрос `character(steve).`?",
-      "options": [
+        "options": [
         "`true`",
         "`steve`",
         "`false`",
@@ -1703,7 +1795,19 @@
       ],
       "correctAnswerIndex": 0,
       "hint": "Подумай, что такое факт.",
-      "nextFrameOnSuccess": "elaboration3_15",
+      "nextFrameOnSuccess": "elaboration2_12",
+      "nextFrameOnFailure": "elaboration2_failTask2_01",
+      "failureScorePenalty": 1
+    },
+    "task3": {
+      "id": "task3",
+      "type": "COMPLETE_QUERY",
+      "questionText": "Напиши запрос, чтобы одним запросом вернуть всех персонажей character(professor).\ncharacter(steve).\ncharacter(vicky).'",
+       "expectedResult": [
+        "character(X)."
+      ],
+      "hint": "Вспомни, как использовать переменные в Prolog",
+      "nextFrameOnSuccess": "elaboration3_17",
       "nextFrameOnFailure": "elaboration3_failTask3_01",
       "failureScorePenalty": 1
     },
@@ -1727,16 +1831,11 @@
       "id": "task5",
       "type": "COMPLETE_QUERY",
       "knowledge": [],
-      "questionText": "Напиши запрос, который объединяет два списка в третий `Result = [1, 2, 3, 4]` с помощью стандартного предиката `append/3.`",
+      "questionText": "Напиши название функции, которая проверяет, является ли элемент частью списка.",
       "expectedResults": [
-        {
-          "variables": {
-            "Result": "[1,2,3,4]"
-          }
-        }
+        "member"
       ],
-      "hint": "У `append/3` первые 2 аргумента -- это массивы, которые нужно склеить, а 3-й -- переменная результата.",
-      "defaultValue": "append(\n\t% arg1, arg2, arg3\n).",
+      "hint": "Вспомни про специальные функции в теме списки.",
       "nextFrameOnSuccess": "elaboration5_14",
       "nextFrameOnFailure": "elaboration5_failTask5_01",
       "failureScorePenalty": 2
