@@ -158,7 +158,7 @@
             }
           ],
           "speaker": "professor",
-          "dialogue": "Время 5:00 утра! Кого могло принести в такую рань....Кто вы ?",
+          "dialogue": "Время 5:00 утра!Кого могло принести в такую рань...Кто вы ?",
           "nextFrame": "inception1_02"
         },
         "inception1_02": {
@@ -227,66 +227,78 @@
         },
         "inception1_10": {
           "id": "inception1_10",
-          "dialogue": "Мне не до шуток, профессор Лэнгдон. Слушайте внимательно! Группа хакеров во главе с Кевином Митником создала вирус, который способен стереть все данные с памяти компьютера, внести сбой в работу всемирной сети, распространяется он через обычное сообщение. ",
+          "dialogue": "Мне не до шуток. Слушайте внимательно! Группа хакеров во главе с Кевином Митником создала вирус, который способен стереть все данные с памяти компьютера ",
           "speaker": "director",
           "nextFrame": "inception1_11"
         },
         "inception1_11": {
           "id": "inception1_11",
-          "dialogue": "Сегодня ночью был взломан компьютер специалиста по информационной безопасности Сары Паркер, с него были украдены файлы и этот вирус был запущен в сеть. Для создания ативируса у нас осталось меньше 20 часов.",
+          "dialogue": "внести сбой в работу всемирной сети, распространяется он через обычное сообщение. ",
           "speaker": "director",
           "nextFrame": "inception1_12"
         },
         "inception1_12": {
           "id": "inception1_12",
-          "dialogue": "Если не создать антивирус на языке 'Prolog', то начнётся всемирный хаос. Будет и падение самолётов, и сход космических кораблей с орбит. Вы понимаете масштаб катастрофы?! ",
+          "dialogue": "Сегодня ночью был взломан компьютер специалиста по информационной безопасности Сары Паркер, с него были украдены файлы и этот вирус был запущен в сеть.",
           "speaker": "director",
           "nextFrame": "inception1_13"
         },
         "inception1_13": {
           "id": "inception1_13",
-          "dialogue": "Я понял вас, мистер Гувер, но я не слишком знаком с языком 'Prolog'... ",
-          "speaker": "professor",
+          "dialogue": "Для создания ативируса у нас осталось меньше 20 часов.",
+          "speaker": "director",
           "nextFrame": "inception1_14"
         },
         "inception1_14": {
           "id": "inception1_14",
-          "dialogue": "Вы лучший в мире специалист по информационной безопасности. Вы быстрее всех способны обучаться новым языкам программирования. На кону стоит жизнь всей планеты! ",
-          "speaker": "director",
+          "dialogue": "Я понял вас, мистер Гувер, но я не слишком знаком с языком 'Prolog'... ",
+          "speaker": "professor",
           "nextFrame": "inception1_15"
         },
         "inception1_15": {
           "id": "inception1_15",
-          "dialogue": "Хорошо, я попробую с ним разобраться!",
-          "speaker": "professor",
+          "dialogue": "Вы лучший в мире специалист по информационной безопасности. Вы быстрее всех способны обучаться новым языкам программирования. На кону стоит жизнь всей планеты! ",
+          "speaker": "director",
           "nextFrame": "inception1_16"
         },
         "inception1_16": {
           "id": "inception1_16",
-          "dialogue": "Также я должен вам сообщить, что Сара Паркер была похищена накануне вечером из собственного дома. Её местонахождение нам пока неизвестно, но мы смогли установить местонахождение того самого компьютера, в который нужно ввести антивирус.",
-          "speaker": "director",
+          "dialogue": "Хорошо, я попробую с ним разобраться!",
+          "speaker": "professor",
           "nextFrame": "inception1_17"
         },
         "inception1_17": {
           "id": "inception1_17",
-          "dialogue": "Я так понимаю, что мы сейчас туда и направимся?",
-          "speaker": "professor",
+          "dialogue": "Также я должен вам сообщить, что Сара Паркер была похищена накануне вечером из собственного дома. Её местонахождение нам пока неизвестно",
+          "speaker": "director",
           "nextFrame": "inception1_18"
         },
         "inception1_18": {
           "id": "inception1_18",
-          "dialogue": "Да. Машина ждет нас внизу. Но будьте осторожны в этом заброшенном особняке повсюду стоят ловушки опасные для жизни. ",
+          "dialogue": "но мы смогли установить местонахождение того самого компьютера, в который нужно ввести антивирус.",
           "speaker": "director",
           "nextFrame": "inception1_19"
         },
         "inception1_19": {
           "id": "inception1_19",
-          "dialogue": "Чтобы их обезопасить нужно ввести верный код. Я верю в вас профессор Лэнгдон! Звоните мне в любое время! Удачи!",
-          "speaker": "director",
+          "dialogue": "Я так понимаю, что мы сейчас туда и направимся?",
+          "speaker": "professor",
           "nextFrame": "inception1_20"
         },
         "inception1_20": {
           "id": "inception1_20",
+          "dialogue": "Да. Машина ждет нас внизу. Но будьте осторожны в этом заброшенном особняке повсюду стоят ловушки опасные для жизни. ",
+          "speaker": "director",
+          "nextFrame": "inception1_21"
+        },
+        "inception1_21": {
+          "id": "inception1_21",
+          "dialogue": "Чтобы их обезопасить нужно ввести верный код. Я верю в вас профессор Лэнгдон! Звоните мне в любое время! Удачи!",
+          "speaker": "director",
+          "nextFrame": "inception1_22"
+        },
+        "inception1_22": {
+          "id": "inception1_22",
           "dialogue": "*клик*",
           "nextFrame": null,
           "effects": [
@@ -299,7 +311,7 @@
           ]
         }
       },
-      "inception2": {
+        "inception2": {
         "inception2_start": {
           "id": "inception2_start",
           "location": "mansionEntrance",
@@ -365,189 +377,207 @@
         },
         "inception2_03": {
           "id": "inception2_03",
-          "dialogue": "Ах, вы тот самый профессор, который является лучшим специалистом по информационной безопасности. Я сначала решил, что опять морадеры пришли, думал опять будут пытаться взломать дверь.",
+          "dialogue": "Ах, вы тот самый профессор, который является лучшим специалистом по информационной безопасности.",
           "speaker": "robot",
           "nextFrame": "inception2_04"
         },
-        "inception2_04": {
-          "id": "inception2_04",
-          "dialogue": "Ведь никто не может ввести правильный код. А я робот третьего поколения модель R3, я должен не пускать сюда никого живого, ведь никто не знает о смертельных ловушках. Зачем вы пришли сюда профессор Лэнгдон?",
-          "speaker": "robot",
-          "nextFrame": "inception2_05"
-        },
-        "inception2_05": {
-          "id": "inception2_05",
-          "dialogue": "Ты робот модель R3, это робот помощник человека. В твои обязанности входит слушать и помогать любому человеку. Так ведь? ",
-          "speaker": "professor",
-          "nextFrame": "inception2_06"
-        },
-        "inception2_06": {
-          "id": "inception2_06",
-          "dialogue": "Кэвин Митник создал вирус, который способен стереть все данные с памяти компьютера, внести сбой в работу всемирной сети, он уже запустил его.",
-          "speaker": "professor",
-          "nextFrame": "inception2_07"
-        },
-        "inception2_07": {
-          "id": "inception2_07",
-          "dialogue": "Осталось меньше 18 часов чтобы создать антивирус на языке 'Prolog'. Ты же поможешь мне его изучить?",
-          "speaker": "professor",
-          "nextFrame": "inception2_08"
-        },
-        "inception2_08": {
-          "id": "inception2_08",
-          "dialogue": "Да, такая функция у меня запрограммирована. Но вы должны знать, что для того, чтобы изучать этот язык, нужно отойти от привычных форм программирования и постараться вникнуть в саму логику языка. ",
-          "speaker": "robot",
-          "nextFrame": "inception2_09"
-        },
-        "inception2_09": {
-          "id": "inception2_09",
-          "dialogue": "Поверьте, это достаточно красивый и логичный язык программирования. Очень скоро вы оцените всю его красоту и возможности.",
-          "speaker": "robot",
-          "nextFrame": "inception2_10"
-        },
-        "inception2_10": {
-          "id": "inception2_10",
-          "dialogue": "Я в этом не сомневаюсь. Может уже перейдём к уроку?",
-          "speaker": "professor",
-          "nextFrame": "inception2_11"
-        },
-        "inception2_11": {
-          "id": "inception2_11",
-          "dialogue": "Давайте приступим! У меня есть планшет, с помощью него вы можете узнать подробнее о языке Prolog. Он может помочь проходить вам задания.",
-          "speaker": "robot",
-          "nextFrame": "inception2_12"
-        },
-        "inception2_12": {
-          "id": "inception2_12",
-          "dialogue": "Очень полезная вещь. Дайка мне его...Посмотрим, что тут у нас...",
-          "speaker": "professor",
-          "nextFrame": "inception2_13"
-        },
-        "inception2_13": {
-          "id": "inception2_13",
-          "dialogue": "Теоретической основой Prolog является раздел символьной логики, называемый исчислением предикатов.",
-          "speaker": "professor",
-          "nextFrame": "inception2_14"
-        },
-        "inception2_14": {
-          "id": "inception2_14",
-          "dialogue": "Предикат — это логическая функция, которая выражает некоторое отношение между своими аргументами и принимает значение \"истина\", если это отношение имеется, или \"ложь\", если оно отсутствует.",
-          "speaker": "professor",
-          "nextFrame": "inception2_15"
-        },
-        "inception2_15": {
-          "id": "inception2_15",
-          "dialogue": "Prolog программа содержит описание проблемы, которое представляет собой набор логических утверждений в форме фактов.",
-          "speaker": "professor",
-          "nextFrame": "inception2_16"
-        },
-        "inception2_16": {
-          "id": "inception2_16",
-          "dialogue": "На основе имеющихся правил и фактов Prolog делает выводы.",
-          "speaker": "professor",
-          "nextFrame": "inception2_17"
-        },
-        "inception2_17": {
-          "id": "inception2_17",
-          "dialogue": "В языке Prolog разные символы имеют свои специфические значения, которые используются для обозначения фактов, переменных, предикатов и других элементов синтаксиса. ",
-          "speaker": "professor",
-          "nextFrame": "inception2_18"
-        },
-        "inception2_18": {
-          "id": "inception2_18",
-          "dialogue": "Точка используется для завершения предложения. Это обязательный символ, указывает, что запись завершена. человек(профессор). ",
-          "speaker": "professor",
-          "nextFrame": "inception2_19"
-        },
-        "inception2_19": {
-          "id": "inception2_19",
-          "dialogue": " Подчёркивание (_) используется для обозначения анонимной переменной. Такая переменная может принимать любое значение, но её значение не используется.",
-          "speaker": "professor",
-          "nextFrame": "inception2_20"
-        },
-        "inception2_20": {
-          "id": "inception2_20",
-          "dialogue": "Тире (-) используется как часть различных конструкций. В правилах для обозначения разделителя между условием и заключением (:-). ",
-          "speaker": "professor",
-          "nextFrame": "inception2_21"
-        },
-        "inception2_21": {
-          "id": "inception2_21",
-          "dialogue": "Переменная в Прологе обозначается именем, начинающимся с заглавной буквы или подчёркивания. Переменные используются для хранения значений во время вычислений. ",
-          "speaker": "professor",
-          "nextFrame": "inception2_22"
-        },
-        "inception2_22": {
-          "id": "inception2_22",
-          "dialogue": "Столько полезной информации для себя узнал, чтож попробуем пройти задание...",
-          "speaker": "professor",
-          "nextFrame": "inception2_23"
-        },
-        "inception2_23": {
-          "id": "inception2_23",
-          "dialogue": "",
-          "nextFrame": null,
-          "effects": [
-            {
-              "type": "START_TASK",
-              "args": {
-                "taskId": "task0"
-              }
-            }
-          ]
-        },
-        "inception2_failTask0_01": {
-          "id": "inception2_failTask0_01",
-          "dialogue": "Будьте внимательны, пожалуйста. Подумайте ещё.",
-          "nextFrame": "inception2_23",
-          "effects": [
-            {
-              "type": "JUMP",
-              "if": {
-                "healthLess": 50
-              },
-              "args": {
-                "frameId": "inception2_failTask0_02"
-              }
-            }
-          ]
-        },
-        "inception2_failTask0_02": {
-          "id": "inception2_failTask0_02",
-          "dialogue": "Будьте внимательны, пожалуйста. И следите за своим здоровьем. Кажется, вы начинаете нервничать...",
-          "nextFrame": "inception2_12",
-          "effects": [
-            {
-              "type": "JUMP",
-              "if": {
-                "not": {
-                  "healthMore": 10
+          "inception2_04": {
+            "id": "inception2_04",
+            "dialogue": "Я сначала решил, что опять морадеры пришли, думал опять будут пытаться взломать дверь.",
+            "speaker": "robot",
+            "nextFrame": "inception2_05"
+          },
+  "inception2_05": {
+    "id": "inception2_05",
+    "dialogue": "Ведь никто не может ввести правильный код. А я робот третьего поколения модель R3, я должен не пускать сюда никого живого",
+    "speaker": "robot",
+    "nextFrame": "inception2_06"
+  },
+          "inception2_06": {
+            "id": "inception2_06",
+            "dialogue": "ведь никто не знает о смертельных ловушках. Зачем вы пришли сюда профессор Лэнгдон?",
+            "speaker": "robot",
+            "nextFrame": "inception2_07"
+          },
+  "inception2_07": {
+    "id": "inception2_07",
+    "dialogue": "Ты робот модель R3, это робот помощник человека. В твои обязанности входит слушать и помогать любому человеку. Так ведь? ",
+    "speaker": "professor",
+    "nextFrame": "inception2_08"
+  },
+  "inception2_08": {
+    "id": "inception2_08",
+    "dialogue": "Кэвин Митник создал вирус, который способен стереть все данные с памяти компьютера, внести сбой в работу всемирной сети, он уже запустил его.",
+    "speaker": "professor",
+    "nextFrame": "inception2_09"
+  },
+  "inception2_09": {
+    "id": "inception2_09",
+    "dialogue": "Осталось меньше 18 часов чтобы создать антивирус на языке 'Prolog'. Ты же поможешь мне его изучить?",
+    "speaker": "professor",
+    "nextFrame": "inception2_10"
+  },
+  "inception2_10": {
+    "id": "inception2_10",
+    "dialogue": "Да, такая функция у меня запрограммирована. Но вы должны знать, что для того, чтобы изучать этот язык, нужно отойти от привычных форм программирования",
+    "speaker": "robot",
+    "nextFrame": "inception2_11"
+  },
+          "inception2_11": {
+            "id": "inception2_11",
+            "dialogue": "и постараться вникнуть в саму логику языка. ",
+            "speaker": "robot",
+            "nextFrame": "inception2_12"
+          },
+          "inception2_12": {
+            "id": "inception2_12",
+            "dialogue": "Поверьте, это достаточно красивый и логичный язык программирования. Очень скоро вы оцените всю его красоту и возможности.",
+            "speaker": "robot",
+            "nextFrame": "inception2_13"
+          },
+          "inception2_13": {
+            "id": "inception2_13",
+            "dialogue": "Я в этом не сомневаюсь. Может уже перейдём к уроку?",
+            "speaker": "professor",
+            "nextFrame": "inception2_14"
+          },
+          "inception2_14": {
+            "id": "inception2_14",
+            "dialogue": "Давайте приступим! У меня есть планшет, с помощью него вы можете узнать подробнее о языке Prolog. Он может помочь проходить вам задания.",
+            "speaker": "robot",
+            "nextFrame": "inception2_15"
+          },
+          "inception2_15": {
+            "id": "inception2_15",
+            "dialogue": "Очень полезная вещь. Дайка мне его...Посмотрим, что тут у нас...",
+            "speaker": "professor",
+            "nextFrame": "inception2_16"
+          },
+          "inception2_16": {
+            "id": "inception2_16",
+            "dialogue": "Теоретической основой Prolog является раздел символьной логики, называемый исчислением предикатов.",
+            "speaker": "professor",
+            "nextFrame": "inception2_17"
+          },
+          "inception2_17": {
+            "id": "inception2_17",
+            "dialogue": "Предикат — это логическая функция, которая выражает некоторое отношение между своими аргументами",
+            "speaker": "professor",
+            "nextFrame": "inception2_18"
+          },
+          "inception2_18": {
+            "id": "inception2_18",
+            "dialogue": "Prolog программа содержит описание проблемы, которое представляет собой набор логических утверждений в форме фактов.",
+            "speaker": "professor",
+            "nextFrame": "inception2_19"
+          },
+          "inception2_19": {
+            "id": "inception2_19",
+            "dialogue": "На основе имеющихся правил и фактов Prolog делает выводы.",
+            "speaker": "professor",
+            "nextFrame": "inception2_20"
+          },
+          "inception2_20": {
+            "id": "inception2_20",
+            "dialogue": "В языке Prolog разные символы имеют свои специфические значения, которые используются для обозначения фактов, переменных, предикатов и других элементов синтаксиса. ",
+            "speaker": "professor",
+            "nextFrame": "inception2_21"
+          },
+          "inception2_21": {
+            "id": "inception2_21",
+            "dialogue": "Точка используется для завершения предложения. Это обязательный символ, указывает, что запись завершена. человек(профессор). ",
+            "speaker": "professor",
+            "nextFrame": "inception2_22"
+          },
+          "inception2_22": {
+            "id": "inception2_22",
+            "dialogue": "Подчёркивание (_) используется для обозначения анонимной переменной. Такая переменная может принимать любое значение, но её значение не используется.",
+            "speaker": "professor",
+            "nextFrame": "inception2_23"
+          },
+          "inception2_23": {
+            "id": "inception2_23",
+            "dialogue": "Тире (-) используется как часть различных конструкций. В правилах для обозначения разделителя между условием и заключением (:-). ",
+            "speaker": "professor",
+            "nextFrame": "inception2_24"
+          },
+          "inception2_24": {
+            "id": "inception2_24",
+            "dialogue": "Переменная в Прологе обозначается именем, начинающимся с заглавной буквы или подчёркивания. Переменные используются для хранения значений во время вычислений. ",
+            "speaker": "professor",
+            "nextFrame": "inception2_25"
+          },
+          "inception2_25": {
+            "id": "inception2_25",
+            "dialogue": "Столько полезной информации для себя узнал, чтож попробуем пройти задание...",
+            "speaker": "professor",
+            "nextFrame": "inception2_26"
+          },
+          "inception2_26": {
+            "id": "inception2_26",
+            "dialogue": "",
+            "nextFrame": null,
+            "effects": [
+              {
+                "type": "START_TASK",
+                "args": {
+                  "taskId": "task0"
                 }
-              },
-              "args": {
-                "frameId": "inception2_failTask0_03"
               }
-            }
-          ]
-        },
-        "inception2_failTask0_03": {
-          "id": "inception2_failTask0_02",
-          "dialogue": "Сфокусируйтесь, профессор! Это ваша последняя попытка...",
-          "nextFrame": "inception2_24"
-        },
-        "inception2_24": {
-          "id": "inception2_24",
-          "dialogue": "...Хорошо. Вижу, самое время продолжить наш путь... и наше обучение.",
-          "nextFrame": null,
-          "effects": [
-            {
-              "type": "JUMP_CHAPTER",
-              "args": {
-                "chapterId": "inception3"
+            ]
+          },
+          "inception2_27": {
+            "id": "inception2_27",
+            "dialogue": "...Хорошо. Вижу, самое время продолжить наш путь... и наше обучение.",
+            "nextFrame": null,
+            "effects": [
+              {
+                "type": "JUMP_CHAPTER",
+                "args": {
+                  "chapterId": "inception3"
+                }
               }
-            }
-          ]
-        }
+            ]
+          },
+          "inception2_failTask0_01": {
+            "id": "inception2_failTask0_01",
+            "dialogue": "Будьте внимательны, пожалуйста. Подумайте ещё.",
+            "nextFrame": "inception2_26",
+            "effects": [
+              {
+                "type": "JUMP",
+                "if": {
+                  "healthLess": 50
+                },
+                "args": {
+                  "frameId": "inception2_failTask0_02"
+                }
+              }
+            ]
+          },
+          "inception2_failTask0_02": {
+            "id": "inception2_failTask0_02",
+            "dialogue": "Будьте внимательны, пожалуйста. И следите за своим здоровьем. Кажется, вы начинаете нервничать...",
+            "nextFrame": "inception2_26",
+            "effects": [
+              {
+                "type": "JUMP",
+                "if": {
+                  "not": {
+                    "healthMore": 10
+                  }
+                },
+                "args": {
+                  "frameId": "inception2_failTask0_03"
+                }
+              }
+            ]
+          },
+          "inception2_failTask0_03": {
+            "id": "inception2_failTask0_03",
+            "dialogue": "Сфокусируйтесь, профессор! Это ваша последняя попытка...",
+            "nextFrame": "inception2_26"
+          }
       },
       "inception3": {
         "inception3_start": {
@@ -705,7 +735,7 @@
         },
         "inception3_12": {
           "id": "inception3_12",
-          "dialogue": "В частности, переменная не рассматривается как выделенный участок памяти. В программе переменная обозначается последовательностью символов, которая начинается с прописной буквы.",
+          "dialogue": "В программе переменная обозначается последовательностью символов, которая начинается с прописной буквы.",
           "speaker": "professor",
           "nextFrame": "inception3_13"
         },
@@ -764,8 +794,8 @@
             }
           ]
         },
-        "inception3_failTask0_01": {
-          "id": "inception3_failTask0_01",
+        "inception3_failTask1_01": {
+          "id": "inception3_failTask1_01",
           "dialogue": "Будьте внимательны, пожалуйста. Подумайте ещё.",
           "nextFrame": "inception3_20",
           "effects": [
@@ -775,13 +805,13 @@
                 "healthLess": 50
               },
               "args": {
-                "frameId": "inception3_failTask0_02"
+                "frameId": "inception3_failTask1_02"
               }
             }
           ]
         },
-        "inception3_failTask0_02": {
-          "id": "inception3_failTask0_02",
+        "inception3_failTask1_02": {
+          "id": "inception3_failTask1_02",
           "dialogue": "Будьте внимательны, пожалуйста. И следите за своим здоровьем. Кажется, вы начинаете нервничать...",
           "nextFrame": "inception3_20",
           "effects": [
@@ -793,13 +823,13 @@
                 }
               },
               "args": {
-                "frameId": "inception3_failTask0_03"
+                "frameId": "inception3_failTask1_03"
               }
             }
           ]
         },
-        "inception3_failTask0_03": {
-          "id": "inception3_failTask0_02",
+        "inception3_failTask1_03": {
+          "id": "inception3_failTask1_02",
           "dialogue": "Сфокусируйтесь, профессор! Это ваша последняя попытка...",
           "nextFrame": "inception3_20"
         },
@@ -937,8 +967,8 @@
             }
           ]
         },
-        "inception4_failTask0_01": {
-          "id": "inception4_failTask0_01",
+        "inception4_failTask2_01": {
+          "id": "inception4_failTask2_01",
           "dialogue": "Будьте внимательны, пожалуйста. Подумайте ещё.",
           "nextFrame": "inception4_14",
           "effects": [
@@ -948,13 +978,13 @@
                 "healthLess": 50
               },
               "args": {
-                "frameId": "inception4_failTask0_02"
+                "frameId": "inception4_failTask2_02"
               }
             }
           ]
         },
-        "inception4_failTask0_02": {
-          "id": "inception4_failTask0_02",
+        "inception4_failTask2_02": {
+          "id": "inception4_failTask2_02",
           "dialogue": "Будьте внимательны, пожалуйста. И следите за своим здоровьем. Кажется, вы начинаете нервничать...",
           "nextFrame": "inception4_14",
           "effects": [
@@ -966,13 +996,13 @@
                 }
               },
               "args": {
-                "frameId": "inception4_failTask0_03"
+                "frameId": "inception4_failTask2_03"
               }
             }
           ]
         },
-        "inception4_failTask0_03": {
-          "id": "inception4_failTask0_02",
+        "inception4_failTask2_03": {
+          "id": "inception4_failTask2_03",
           "dialogue": "Сфокусируйтесь, профессор! Это ваша последняя попытка...",
           "nextFrame": "inception4_14"
         },
@@ -1261,10 +1291,10 @@
             }
           ]
         },
-        "elaboration2_failTask0_01": {
-          "id": "elaboration2_failTask0_01",
+        "elaboration2_failTask3_01": {
+          "id": "elaboration2_failTask3_01",
           "dialogue": "Будьте внимательны, пожалуйста. Подумайте ещё.",
-          "nextFrame": "elaboration2_29",
+          "nextFrame": "elaboration2_30",
           "effects": [
             {
               "type": "JUMP",
@@ -1272,15 +1302,15 @@
                 "healthLess": 50
               },
               "args": {
-                "frameId": "elaboration2_failTask0_02"
+                "frameId": "elaboration2_failTask3_02"
               }
             }
           ]
         },
-        "elaboration2_failTask0_02": {
-          "id": "elaboration2_failTask0_02",
+        "elaboration2_failTask3_02": {
+          "id": "elaboration2_failTask3_02",
           "dialogue": "Будьте внимательны, пожалуйста. И следите за своим здоровьем. Кажется, вы начинаете нервничать...",
-          "nextFrame": "elaboration2_29",
+          "nextFrame": "elaboration2_30",
           "effects": [
             {
               "type": "JUMP",
@@ -1290,15 +1320,15 @@
                 }
               },
               "args": {
-                "frameId": "elaboration2_failTask0_03"
+                "frameId": "elaboration2_failTask3_03"
               }
             }
           ]
         },
-        "elaboration2_failTask0_03": {
-          "id": "elaboration2_failTask0_02",
+        "elaboration2_failTask3_03": {
+          "id": "elaboration2_failTask3_03",
           "dialogue": "Сфокусируйтесь, профессор! Это ваша последняя попытка...",
-          "nextFrame": "elaboration2_29"
+          "nextFrame": "elaboration2_30"
         },
         "elaboration2_31": {
           "id": "elaboration2_31",
@@ -1504,7 +1534,7 @@
         },
         "elaboration3_09": {
           "id": "elaboration3_09",
-          "dialogue": "Притяно познакомиться, мисс, я признаться не ожидал вас здесь увидеть!",
+          "dialogue": "Приятно познакомиться, мисс, я признаться не ожидал вас здесь увидеть!",
           "speaker": "professor",
           "nextFrame": "elaboration3_10"
         },
@@ -1576,18 +1606,18 @@
             {
               "type": "START_TASK",
               "args": {
-                "taskId": "task3"
+                "taskId": "task4"
               }
             }
           ]
         },
-        "elaboration3_failTask3_01": {
-          "id": "elaboration3_failTask3_01",
+        "elaboration3_failTask4_01": {
+          "id": "elaboration3_failTask4_01",
           "dialogue": "Чёрт... Попробую-ка ещё раз.",
           "nextFrame": "elaboration3_20"
         },
-        "elaboration3_failTask0_02": {
-          "id": "elaboration3_failTask0_02",
+        "elaboration3_failTask4_02": {
+          "id": "elaboration3_failTask4_02",
           "dialogue": "Будьте внимательны, пожалуйста. И следите за своим здоровьем. Кажется, вы начинаете нервничать...",
           "nextFrame": "elaboration3_20",
           "effects": [
@@ -1599,13 +1629,13 @@
                 }
               },
               "args": {
-                "frameId": "elaboration3_failTask0_03"
+                "frameId": "elaboration3_failTask4_03"
               }
             }
           ]
         },
-        "elaboration3_failTask0_03": {
-          "id": "elaboration3_failTask0_02",
+        "elaboration3_failTask4_03": {
+          "id": "elaboration3_failTask4_03",
           "dialogue": "Сфокусируйтесь, профессор! Это ваша последняя попытка...",
           "nextFrame": "elaboration3_20"
         },
@@ -1706,12 +1736,18 @@
         },
         "elaboration4_05": {
           "id": "elaboration4_05",
-          "dialogue": "Чтобы попасть внутрь хранилища, каждый из них должен ввести свою часть кода и тогда 'сим-сим' распахнет свои двери. А делает он это крайне редко. За всю историю Форт-Нокса только три раза в него попадали посторонние люди.",
+          "dialogue": "Чтобы попасть внутрь хранилища, каждый из них должен ввести свою часть кода и тогда 'сим-сим' распахнет свои двери.",
           "speaker": "professor",
           "nextFrame": "elaboration4_06"
         },
         "elaboration4_06": {
           "id": "elaboration4_06",
+          "dialogue": "За всю историю Форт-Нокса только три раза в него попадали посторонние люди.",
+          "speaker": "professor",
+          "nextFrame": "elaboration4_07"
+        },
+        "elaboration4_07": {
+          "id": "elaboration4_07",
           "characters": [
             {
               "id": "professor",
@@ -1736,22 +1772,22 @@
           ],
           "dialogue": "Кому же выпала такая честь и по какой причине они смогли туда попасть?",
           "speaker": "vicky",
-          "nextFrame": "elaboration4_07"
-        },
-        "elaboration4_07": {
-          "id": "elaboration4_07",
-          "dialogue": "Первым из тех кто туда попал был американский президент Рузвельт в 1943 году. А второй раз запасы проверяли лишь спустя 31 год.",
-          "speaker": "professor",
           "nextFrame": "elaboration4_08"
         },
         "elaboration4_08": {
           "id": "elaboration4_08",
-          "dialogue": "И третья инспекция случилась в 2018 году, так как стали ходить слухи, что никакого золота в хранилище нет. Но это оказалось лишь слухами, все золото было на месте.",
+          "dialogue": "Первым из тех кто туда попал был американский президент Рузвельт в 1943 году. А второй раз запасы проверяли лишь спустя 31 год.",
           "speaker": "professor",
           "nextFrame": "elaboration4_09"
         },
         "elaboration4_09": {
           "id": "elaboration4_09",
+          "dialogue": "И третья инспекция случилась в 2018 году, так как стали ходить слухи, что никакого золота в хранилище нет. Но это оказалось лишь слухами, все золото было на месте.",
+          "speaker": "professor",
+          "nextFrame": "elaboration4_10"
+        },
+        "elaboration4_10": {
+          "id": "elaboration4_10",
           "characters": [
             {
               "id": "professor",
@@ -1776,16 +1812,16 @@
           ],
           "dialogue": "Интересно, сотрудники монетного двора тоже в доле с Митником или он хочет их использовать втемную? ",
           "speaker": "sarah",
-          "nextFrame": "elaboration4_10"
-        },
-        "elaboration4_10": {
-          "id": "elaboration4_10",
-          "dialogue": "Мы обязательно выясним это позже, а сейчас нужно остановить вирус и ввести код пока нам никто не помешал.",
-          "speaker": "vicky",
           "nextFrame": "elaboration4_11"
         },
         "elaboration4_11": {
           "id": "elaboration4_11",
+          "dialogue": "Мы обязательно выясним это позже, а сейчас нужно остановить вирус и ввести код пока нам никто не помешал.",
+          "speaker": "vicky",
+          "nextFrame": "elaboration4_12"
+        },
+        "elaboration4_12": {
+          "id": "elaboration4_12",
           "characters": [
             {
               "id": "professor",
@@ -1808,10 +1844,10 @@
           ],
           "dialogue": "Да, давайте приступим. Я уже готов.",
           "speaker": "robot",
-          "nextFrame": "elaboration4_12"
+          "nextFrame": "elaboration4_13"
         },
-        "elaboration4_12": {
-          "id": "elaboration4_12",
+        "elaboration4_13": {
+          "id": "elaboration4_13",
           "characters": [
             {
               "id": "professor",
@@ -1834,78 +1870,78 @@
           ],
           "dialogue": "Когда в ходе резолюции цели Пролог встречает не факт, а правило, то вначале унифицирует заголовок правила",
           "speaker": "professor",
-          "nextFrame": "elaboration4_13"
-        },
-        "elaboration4_13": {
-          "id": "elaboration4_13",
-          "dialogue": "т.е. сравнивает связанные переменные и присваивает значения свободным переменным.",
-          "speaker": "professor",
           "nextFrame": "elaboration4_14"
         },
         "elaboration4_14": {
           "id": "elaboration4_14",
-          "dialogue": "В случае успешной унификации аргументов подставляется значения аргументов из заголовка в первый предикат в теле правила ",
+          "dialogue": "т.е. сравнивает связанные переменные и присваивает значения свободным переменным.",
           "speaker": "professor",
           "nextFrame": "elaboration4_15"
         },
         "elaboration4_15": {
           "id": "elaboration4_15",
-          "dialogue": "и ставит этот предикат себе в качестве подцели, которую начинает унифицировать с базой знаний. ",
+          "dialogue": "В случае успешной унификации аргументов подставляется значения аргументов из заголовка в первый предикат в теле правила ",
           "speaker": "professor",
           "nextFrame": "elaboration4_16"
         },
         "elaboration4_16": {
           "id": "elaboration4_16",
-          "dialogue": "Если унификация этого предиката условия приводит к неудаче, то выполняется откат к предыдущему условию правила. ",
+          "dialogue": "и ставит этот предикат себе в качестве подцели, которую начинает унифицировать с базой знаний. ",
           "speaker": "professor",
           "nextFrame": "elaboration4_17"
         },
         "elaboration4_17": {
           "id": "elaboration4_17",
-          "dialogue": "Этот откат происходит только в том случае, если этот предыдущий предикат является неоднозначным. Поясним это на примере. ",
+          "dialogue": "Если унификация этого предиката условия приводит к неудаче, то выполняется откат к предыдущему условию правила. ",
           "speaker": "professor",
           "nextFrame": "elaboration4_18"
         },
         "elaboration4_18": {
           "id": "elaboration4_18",
-          "dialogue": "parent (Who, Vicky)\nПеременная Who в предикате цели является свободной переменной. ",
+          "dialogue": "Этот откат происходит только в том случае, если этот предыдущий предикат является неоднозначным. Поясним это на примере. ",
           "speaker": "professor",
           "nextFrame": "elaboration4_19"
         },
         "elaboration4_19": {
           "id": "elaboration4_19",
-          "dialogue": "Мы могли бы использовать X вместо Who, и это были бы разные переменные, которые бы унифицировались точно так же.",
+          "dialogue": "parent (Who, Vicky)\nПеременная Who в предикате цели является свободной переменной. ",
           "speaker": "professor",
           "nextFrame": "elaboration4_20"
         },
         "elaboration4_20": {
           "id": "elaboration4_20",
-          "dialogue": "Интересно, интересно... перейдем к заданию.",
+          "dialogue": "Мы могли бы использовать X вместо Who, и это были бы разные переменные, которые бы унифицировались точно так же.",
           "speaker": "professor",
           "nextFrame": "elaboration4_21"
         },
         "elaboration4_21": {
           "id": "elaboration4_21",
+          "dialogue": "Интересно, интересно... перейдем к заданию.",
+          "speaker": "professor",
+          "nextFrame": "elaboration4_22"
+        },
+        "elaboration4_22": {
+          "id": "elaboration4_22",
           "dialogue": "",
-          "nextFrame": "elaboration4_21",
+          "nextFrame": "elaboration4_23",
           "effects": [
             {
               "type": "START_TASK",
               "args": {
-                "taskId": "task4"
+                "taskId": "task5"
               }
             }
           ]
         },
-        "elaboration4_failTask4_01": {
-          "id": "elaboration4_failTask4_01",
+        "elaboration4_failTask5_01": {
+          "id": "elaboration4_failTask5_01",
           "dialogue": "Попробуйте еще раз!",
-          "nextFrame": "elaboration4_21"
+          "nextFrame": "elaboration4_22"
         },
-        "elaboration4_failTask4_02": {
-          "id": "elaboration4_failTask4_02",
+        "elaboration4_failTask5_02": {
+          "id": "elaboration4_failTask5_02",
           "dialogue": "Будьте внимательны, пожалуйста. И следите за своим здоровьем. Кажется, вы начинаете нервничать...",
-          "nextFrame": "elaboration4_21",
+          "nextFrame": "elaboration4_22",
           "effects": [
             {
               "type": "JUMP",
@@ -1915,18 +1951,18 @@
                 }
               },
               "args": {
-                "frameId": "elaboration4_failTask4_03"
+                "frameId": "elaboration4_failTask5_03"
               }
             }
           ]
         },
-        "elaboration4_failTask4_03": {
-          "id": "elaboration4_failTask4_03",
+        "elaboration4_failTask5_03": {
+          "id": "elaboration4_failTask5_03",
           "dialogue": "Сфокусируйтесь, профессор! Это ваша последняя попытка...",
-          "nextFrame": "elaboration4_21"
+          "nextFrame": "elaboration4_22"
         },
-        "elaboration4_22": {
-          "id": "elaboration4_22",
+        "elaboration4_23": {
+          "id": "elaboration4_23",
           "dialogue": "",
           "nextFrame": null,
           "effects": [
@@ -2007,34 +2043,30 @@
   "tasks": {
     "task0": {
       "id": "task0",
-      "type": "SELECT_MANY",
-      "questionText": "Что из перечисленного является базовым элементом Пролога при работе с базами знаний?",
+      "type": "SELECT_ONE",
+      "questionText": "Как обозначается завершение предложения в Прологе?",
       "options": [
-        "Массив",
-        "Список",
-        "Факты",
-        "Правила",
-        "Запросы"
+        "`.` (точка)",
+        "`_` (нижнее подчёркивание)",
+        "`-` (дефис)",
+        "`X`"
       ],
-      "correctAnswerIndices": [
-        2,
-        3,
-        4
-      ],
-      "nextFrameOnSuccess": "inception2_24",
-      "nextFrameOnFailure": "inception4_failTask0_01",
+      "correctAnswerIndex": 0,
+      "nextFrameOnSuccess": "inception2_27",
+      "nextFrameOnFailure": "inception2_failTask0_01",
       "failureScorePenalty": 2
     },
     "task1": {
-      "id": "task_choose_weapon2",
+      "id": "task1",
       "type": "SELECT_ONE",
-      "questionText": "Можно ли использовать X в правилах `destroy(X) :- work(X, virus).`?",
+      "questionText": "Анонимная переменная - это переменная, значение которой нам не важно, и мы используем её, когда хотим указать, что на её месте в предикате может быть любая информация. Какой синтаксис она имеет?",
       "options": [
-        "Да",
-        "Нет",
-        "Есть исключения"
+        "`.` (точка)",
+        "`_` (нижнее подчёркивание)",
+        "`-` (дефис)",
+        "`X`"
       ],
-      "correctAnswerIndex": 0,
+      "correctAnswerIndex": 1,
       "nextFrameOnSuccess": "inception3_21",
       "nextFrameOnFailure": "inception3_failTask1_01",
       "failureScorePenalty": 2
@@ -2049,78 +2081,56 @@
       ],
       "correctAnswerIndex": 0,
       "hint": "Вспомни, что означает переменная `Х`",
-      "nextFrameOnSuccess": "inception4_16",
+      "nextFrameOnSuccess": "inception4_15",
       "nextFrameOnFailure": "inception4_failTask2_01",
       "failureScorePenalty": 1
     },
     "task3": {
       "id": "task3",
       "type": "SELECT_ONE",
-      "questionText": "Даны следующие факты:```character(professor).\ncharacter(steve).\ncharacter(mitnik).```Какой результат даст запрос `character(steve).`?",
+      "questionText": "Как проверить, содержится ли элемент `3` в списке `[1, 2, 3, 4]`?",
       "options": [
-        "`true`",
-        "`steve`",
-        "`false`",
-        "`X = steve`"
+        "`contains(3, [1, 2, 3, 4])`",
+        "`exists(3, [1, 2, 3, 4])`",
+        "`in_list(3, [1, 2, 3, 4]`",
+        "`member(3, [1, 2, 3, 4])`"
       ],
-      "correctAnswerIndex": 0,
-      "hint": "Подумай, что такое факт.",
-      "nextFrameOnSuccess": "elaboration3_21",
-      "nextFrameOnFailure": "elaboration3_failTask3_01",
+      "correctAnswerIndex": 3,
+      "hint": "Вспомни про встроенные конструкции",
+      "nextFrameOnSuccess": "elaboration2_31",
+      "nextFrameOnFailure": "elaboration2_failTask3_01",
       "failureScorePenalty": 1
     },
     "task4": {
       "id": "task4",
       "type": "SELECT_ONE",
-      "questionText": "Как можно найти длину списка `[a, b, c, d]` в Прологе?",
+      "questionText": "Даны следующие факты:\ncharacter(professor).\ncharacter(vicky).\ncharacter(mitnik).\nКакой запрос вернет всех героев?",
       "options": [
-        "`Length := length([a, b, c, d]).`",
-        "`[a, b, c, d], Length.`",
-        "`length([a, b, c, d], Length).`",
-        "`length([a, b, c, d]).`"
+        "`character(X).`",
+        "`character(professor, vicky, mitnik).`",
+        "`character(_).`",
+        "Ни один"
       ],
-      "correctAnswerIndex": 2,
-      "hint": "Вспомни про встроенные конструкции",
-      "nextFrameOnSuccess": "elaboration4_22",
-      "nextFrameOnFailure": "elaboration4_failTask4_01",
+      "correctAnswerIndex": 0,
+      "hint": "Подумай, что такое факт.",
+      "nextFrameOnSuccess": "elaboration3_21",
+      "nextFrameOnFailure": "elaboration3_failTask4_01",
       "failureScorePenalty": 1
     },
     "task5": {
       "id": "task5",
-      "type": "SELECT_ONE",
+      "type": "COMPLETE_QUERY",
       "knowledge": [],
-      "questionText": "Напиши запрос, чтобы одним запросом вернуть всех персонажей \ncharacter(professor). \n character(steve).\n character(vicky).",
-      "options": [
-        "`true`",
-        "`steve`",
-        "`false`",
-        "`X = steve`"
+      "questionText": "Допиши запрос, чтобы ответ был: Х = virus\nsteal(sara, mitnik).\nwork(sara, fbi).\ndestroy(mitnik, virus).\n\nfind(Target) :- steal(sara, mitnik), destroy(mitnik, Target).\n",
+      "expectedResults": [
+        "find(X)"
       ],
       "correctAnswerIndex": 0,
-      "hint": "У `append/3` первые 2 аргумента -- это массивы, которые нужно склеить, а 3-й -- переменная результата.",
-      "nextFrameOnSuccess": "elaboration3_21",
-      "nextFrameOnFailure": "elaboration3_failTask21_01",
+      "hint": "Вспомни, что такое факты",
+      "nextFrameOnSuccess": "elaboration4_22",
+      "nextFrameOnFailure": "elaboration4_failTask5_01",
       "failureScorePenalty": 2
     }
   },
-  "knowledge": {
-    "iAmSteve": {
-      "id": "iAmSteve",
-      "type": "fact",
-      "content": "fbi_agent(steve).",
-      "description": "Стив -- агент ФБР."
-    },
-    "mySuperior": {
-      "id": "mySuperior",
-      "type": "fact",
-      "content": "superior(director, steve).",
-      "description": "Директор ФБР -- руководитель Стива."
-    },
-    "ifAssistedKevinThenCreatedVirus": {
-      "id": "ifAssistedKevinThenHacked",
-      "type": "rule",
-      "content": "creates(X, virus) :-\n\t(assists(X, kevin); X = kevin),\n\thacker(X).",
-      "description": "Кэвин и все хакеры, помогавшие ему, участвовали в создании вируса."
-    }
-  }
+  "knowledge": []
 }
