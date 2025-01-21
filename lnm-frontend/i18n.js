@@ -106,6 +106,10 @@ i18n.use(initReactI18next).init({
 				Question: 'Are you really interested?',
 				Yes: 'Yes',
 				No: 'No',
+				continue: {
+					game: 'Continue',
+					error: 'Game has not found. You can start a new game.',
+				},
 				login: {
 					title: 'Login',
 					usernamePlaceholder: 'Enter your username',
@@ -309,6 +313,10 @@ i18n.use(initReactI18next).init({
 				Question: 'Тебе действительно интересно?',
 				Yes: 'Да',
 				No: 'Нет',
+				continue: {
+					game: 'Продолжить',
+					error: 'Игра не найдена. Начните новую игру',
+				},
 				login: {
 					title: 'Вход',
 					usernamePlaceholder: 'Введите имя пользователя',
